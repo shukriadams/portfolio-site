@@ -1,0 +1,12 @@
+{
+  "_model" : "glooSimpleHeader",
+  "dock" : "top",
+  "href" : "/",
+  "icon" : "icon-stack",
+
+  "menu" : {
+    "items" : [
+      { "text" : "Lym" , "href" : "lym.html"}
+    ]
+  }
+}

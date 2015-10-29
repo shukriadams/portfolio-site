@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/lym.css" type="text/css">
+    </head>
+    <body>
+    {{>gloo-simpleHeader header}}
+
+    <div class="site-hero">
+        {{#block "_hero"}}{{/block}}
+    </div>
+
+    {{#block "_body"}}{{/block}}
+
+    {{>site-footer site-footer}}
+
+    <script data-main="js/app"  src="lib/require.js"></script>
+    </body>
+</html>

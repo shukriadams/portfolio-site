@@ -1,0 +1,8 @@
+.site-hero{
+  .gloo-textOverlay-title{
+    @extend .header0;
+  }
+  .gloo-textOverlay-body{
+    @extend .header2;
+  }
+}

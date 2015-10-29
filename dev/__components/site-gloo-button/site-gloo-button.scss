@@ -1,0 +1,10 @@
+.gloo-button{
+  background-color:$site-palette-hotLava;
+  color:white;
+  font-weight: bold;
+
+  &:hover{
+    background-color:white;
+    color:$site-palette-burgandy;
+  }
+}

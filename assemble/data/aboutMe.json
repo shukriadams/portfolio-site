@@ -1,0 +1,23 @@
+{
+  "_model" : "glooCellRow",
+
+  "items" : [
+
+    {
+      "text" : "I'm Shukri Adams, a fullstack architect focusing on frontend. These days that means modular code frameworks, responsive, and automated build processes. Before that I was primarily a backend developer, doing data modeling, server processes and MVC sites. Even further back I was a biologist.",
+      "image" : {
+        "_model" : "glooImage",
+        "src" : "/img/arrow-white.png"
+      }
+    },
+
+    {
+      "text" : "When I'm not coding I paint, play guitar, and consume huge amounts of music, movies and games.",
+      "image" : {
+        "_model" : "glooImage",
+        "src" : "/img/arrow-white.png"
+      }
+    }
+
+  ]
+}

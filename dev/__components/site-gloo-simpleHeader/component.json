@@ -1,0 +1,6 @@
+{
+  "name" : "site-gloo-simpleHeader",
+  "dependencies" : {
+    "gloo-simpleHeader" : "0.0.1"
+  }
+}

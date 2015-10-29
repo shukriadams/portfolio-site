@@ -1,0 +1,6 @@
+{
+  "name" : "site-gloo-cellRow",
+  "dependencies" : {
+    "gloo-cellRow" : "0.0.1"
+  }
+}

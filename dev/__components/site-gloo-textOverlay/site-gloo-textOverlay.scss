@@ -1,0 +1,6 @@
+.gloo-textOverlay{
+  .gloo-button{
+    @extend .gloo-button--rounded;
+    @extend .gloo-button--responsive;
+  }
+}

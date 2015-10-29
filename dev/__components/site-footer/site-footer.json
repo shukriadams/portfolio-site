@@ -1,0 +1,21 @@
+{
+  	"header" : "",
+	"items" : [
+		{
+		  	"icon" : "icon-github4",
+			"href" : "https://github.com/shukriadams",
+		  	"text" : "Github"
+		},
+		{
+		  "icon" : "icon-linkedin",
+		  "href" : "https://www.linkedin.com/profile/view?id=AAMAAAO2WukBONe7p5A1GbGFU45AhOlWa45g8SI",
+		  "text" : "LinkedIn"
+		},
+		{
+		  "icon" : "icon-facebook2",
+		  "href" : "https://www.facebook.com/manafeed",
+		  "text" : "Facebook"
+		}
+	]
+}
+

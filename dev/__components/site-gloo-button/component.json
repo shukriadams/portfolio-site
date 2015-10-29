@@ -1,0 +1,6 @@
+{
+  "name" : "site-gloo-button",
+  "dependencies" : {
+    "gloo-button" : "0.0.1"
+  }
+}

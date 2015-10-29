@@ -1,0 +1,12 @@
+{
+  "right" : {
+    "_model" : "glooImageOverlay",
+    "image" : "<%= glooInfiniteImage %>",
+    "overlay" : {
+      "_model" : "glooTextOverlay",
+      "title" : "Right overlay",
+      "body" : "This is gloo-imageOver with right alignment. This is gloo-imageOver with right alignment. This is gloo-imageOver with right alignment. This is gloo-imageOver with right alignment. ",
+      "align" : "right"
+    }
+  }
+}

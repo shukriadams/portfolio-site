@@ -1,0 +1,17 @@
+{
+  "_model" : "glooImageOverlay",
+  "image" : {
+    "_modelName" : "glooInfiniteImage",
+    "src" : "img/banner2.jpg"
+  },
+  "overlay" : {
+    "_model" : "glooTextOverlay",
+    "body" : "This website is built with modular frontend components using Lym.",
+    "align" : "right",
+    "cta" :{
+      "_modelName" : "glooLink",
+      "href" : "lym.html",
+      "text" : "More"
+    }
+  }
+}

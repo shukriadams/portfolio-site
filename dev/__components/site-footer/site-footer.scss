@@ -1,0 +1,51 @@
+.site-footer{
+  background-color: $site-palette-hotLava;
+  color:white;
+  padding:20px 10px 20px 10px;
+  text-align: center;
+
+  .site-footer-header{
+    @extend .header2;
+    margin-bottom: $gloo-verticalRhythm / 2;
+    @media #{$gloo-responsive-small}{
+      display: inline-block;
+      margin-bottom: 0px;
+    }
+  }
+
+  a {
+    color:white;
+    &:hover {
+      @include gloo-utils-transition(all, 0.5s);
+      color:$site-palette-coal;
+    }
+  }
+
+  .site-footer-links{
+    @media #{$gloo-responsive-small}{
+      display: inline-block;
+    }
+  }
+
+  .site-footer-link{
+
+    position: relative;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing:-0.08em;
+    margin-bottom:$gloo-verticalRhythm / 4;
+    @media #{$gloo-responsive-small}{
+      display: inline-block;
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 40px;
+      height: auto;
+      position: relative;
+      top: 12px;
+    }
+  }
+}

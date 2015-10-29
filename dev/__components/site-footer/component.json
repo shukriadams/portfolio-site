@@ -1,0 +1,6 @@
+{
+  "name" : "site-footer",
+  "dependencies" : {
+    "site-base" : "0.0.1"
+  }
+}

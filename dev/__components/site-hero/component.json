@@ -1,0 +1,6 @@
+{
+  "name" : "site-hero",
+  "dependencies" : {
+    "gloo-textOverlay" : "0.0.1"
+  }
+}

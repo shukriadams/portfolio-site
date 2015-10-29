@@ -1,0 +1,25 @@
+.gloo-simpleHeader{
+
+  &.gloo-simpleHeader--docktop{
+    background-color: rgba(219, 2, 27, 0.7);
+    @media #{$gloo-responsive-belowsmall}{
+      // force menu to scroll out of view in mobile size
+      position:relative;
+    }
+  }
+
+   background-color: $site-palette-hotLava;
+  .gloo-simpleHeader-menuItem{
+    padding: 4px $gloo-verticalRhythm/2 4px  $gloo-verticalRhythm/2;
+    font-weight: bold;
+    @media #{$gloo-responsive-small}{
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    &:hover {
+      color:$site-palette-coal;
+    }
+
+  }
+}

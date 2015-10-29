@@ -1,0 +1,26 @@
+.gloo-cellRow{
+  background-color: $site-palette-coal;
+
+  .gloo-cellRow-title {
+    @extend .header2;
+  }
+
+  .gloo-cellRow-item{
+    @extend .bodytext;
+    padding-top:$gloo-verticalRhythm;
+    padding-bottom:$gloo-verticalRhythm;
+    color:$site-palette-white;
+  }
+
+  .gloo-cellRow-itemImage{
+    width:40px;
+    height:auto;
+    float:left;
+    padding-right: 6px;
+    padding-top: 4px;
+  }
+
+  .gloo-cellRow-itemText{
+    margin-left:3em;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "site-typography",
+  "dependencies" : {
+    "gloo-base" : "0.0.1"
+  }
+}

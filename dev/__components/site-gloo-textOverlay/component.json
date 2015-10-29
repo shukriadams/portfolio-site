@@ -1,0 +1,6 @@
+{
+  "name" : "site-gloo-textOverlay",
+  "dependencies" : {
+    "gloo-textOverlay" : "0.0.1"
+  }
+}

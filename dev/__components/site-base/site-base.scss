@@ -1,0 +1,47 @@
+@import url('http://fonts.googleapis.com/css?family=Lato');
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:900');
+
+// rhythm
+$gloo-verticalRhythm:gloo-utils-toEm(20px);
+$gloo-grid-columnGutter: 2.2em;
+
+// palette
+$site-palette-hotLava:#9d0516;
+$site-palette-coal:#0f0f0f;
+$site-palette-vanilla:#E1C9C9;
+$site-palette-beige:#5C5353;
+$site-palette-white:#f7f7f7;
+$site-palette-burgandy:#7F231B;
+
+
+$gloo-responsive-smallScreen: 500px;
+
+// simpleHeader
+$gloo-simpleHeader-backgroundColor:$site-palette-hotLava;
+$gloo-simpleHeader-textColor:$site-palette-white;
+$gloo-simpleHeader-hoverColor:$site-palette-burgandy;
+
+$small-range: (0, 30em) !default;
+
+
+
+html {
+  height :100%;
+} 
+body {
+  color:$site-palette-white;
+  background-color:$site-palette-coal;
+  height :100%;
+  padding: 0;
+  margin: 0;
+  letter-spacing: -0.04em;
+}
+
+a{
+  text-decoration: none;
+}
+
+i {
+  margin-right: 4px;
+  top: 2px;
+}

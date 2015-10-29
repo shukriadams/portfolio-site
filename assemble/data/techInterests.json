@@ -1,0 +1,32 @@
+{
+  "_model" : "glooCellRow",
+
+  "title" : "Tech interests",
+  "items" : [
+
+    {
+      "text" : "<strong>NodeJS</strong> : The perfect balance of front and backend. I use Node to build cross-OS scripts, solve problems and make tools. ",
+      "image" : {
+        "_model" : "glooImage",
+        "src" : "/img/nodejs.png"
+      }
+    },
+
+    {
+      "text" : "<strong>Jenkins</strong> : Automation is king.",
+      "image" : {
+        "_model" : "glooImage",
+        "src" : "/img/jenkins.png"
+      }
+    },
+
+    {
+      "text" : "<strong>C#</strong> : This will always be my first language. I got into C# when .Net version 1 was released. MVC sites, console apps or CMS implementations, it just feels natural and easy.",
+      "image" : {
+        "_model" : "glooImage",
+        "src" : "/img/csharp.png"
+      }
+    }
+
+  ]
+}
