@@ -1,5 +1,5 @@
 {
-  "name" : "base",
+  "name" : "site-base",
   "dependencies" : {
     "gloo-base" : "0.0.1"
   }

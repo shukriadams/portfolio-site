@@ -2,13 +2,7 @@ require.config({
 	baseUrl : '/'
 });
 
-require(['jquery','gloo-carousel'], function($, Carousel){
+require([], function(){
 
-    if ($.find('.js-gloo-carousel')){
-        new Carousel({
-            $el :$.find('.js-gloo-carousel'),
-            items : 3
-        });
-    }
 
 });
