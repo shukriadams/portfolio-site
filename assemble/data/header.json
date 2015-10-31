@@ -6,7 +6,12 @@
 
   "menu" : {
     "items" : [
-      { "text" : "Lym" , "href" : "lym.html"}
+      {
+        "text" : "Projects" , "href" : "projects.html"
+      },
+      {
+        "text" : "Lym" , "href" : "lym.html"
+      }
     ]
   }
 }

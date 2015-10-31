@@ -1,10 +1,74 @@
 {{#extend "default"}}
+    {{#content "_title"}}
+        Lym
+    {{/content}}
     {{#content "_hero"}}
-        {{>gloo-imageOverlay heroes.index}}
+        {{>gloo-imageOverlay heroes.lym}}
     {{/content}}
     {{#content "_body"}}
-        <div>
-            Stay tuned.
+
+        <div class="row">
+            <div class="columns small-12">
+                <p>
+                    Lym tries to bring reusable frontend component structure to your workflow, if your workflow uses HandleBars, Sass and RequireJS.
+                </p>
+
+                <h2>Try it</h2>
+                <p>
+                    This site is built with Lym - you can build it locally to see how it works.
+                </p>
+                <p>
+                    <ol>
+                        <li>Install lym with <span class='site-code'>npm install -g lym</span> (requires NodeJs and Git)</li>
+                        <li>Clone the source code from <a href='https://github.com/shukriadams/portfolio-site.git'>github</a></li>
+                        <li>Open a console in the root of your cloned project.</li>
+                        <li>Run <span class='site-code'>npm install</span></li>
+                        <li>Run <span class='site-code'>node setup</span> to fetch the frontend components for the site</li>
+                        <li>Run <span class='site-code'>lym build</span> to compile the site.</li>
+                        <li>Serve the contents of /dev with your webserver of choice</li>
+                    </ol>
+                </p>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="columns small-12">
+                <h2>Site structure</h2>
+                <p>
+                    The components to build this site are placed in <strong>/dev/__components</strong>. Those components named gloo-* are reusable, and each is available
+                    via Github, for example <a href="https://github.com/shukriadams/gloo-imageOverlay">gloo-imageOverlay</a>. The components named site-gloo-* live in this
+                    project only, and most customize corresponding gloo-* components. You don't have to organize your code this way, but it helps to keep things organized.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="columns">
+                <h2>Why use it?</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="columns small-12 medium-6">
+                <p>
+                Frontend code is a strange thing. In many ways it's not particularly complex - some HTML, some CSS,
+                and a bit of Javascript to make it all hang together. Yet for all that simplicity it's surprisingly
+                complex moving it around. When you like something, you copy/paste it from one project to the next,
+                and by the time you're on your tenth project you wonder how it all went so wrong. There are several
+                approaches to cut back on copy/pasting code, <strong>Lym</strong> is one of them.
+                </p>
+            </div>
+            <div class="columns small-12 medium-6">
+                <p>
+                Lym doesn't support every standard and engine around. Markup must be Handlebars. Css must be Sass.
+                Javascript must be RequireJS-ready. Components must be Bower-ready. Within those constraints it makes
+                it easy to organize, import and customize code though. Sometimes you have to give a little to get a little.
+                </p>
+            </div>
+        </div>
+
+
+
     {{/content}}
 {{/extend}}

@@ -1,6 +1,5 @@
 {
-  "index" :
-    {
+  "index" : {
       "_model" : "glooImageOverlay",
       "image" : {
         "_modelName" : "glooInfiniteImage",
@@ -10,10 +9,41 @@
         "_model" : "glooTextOverlay",
 
         "title" : "The Frontends",
-        "body" : "",
-
         "__comment" : "left|right|center",
         "align" : "center"
       }
+    },
+
+  "lym" : {
+    "_model" : "glooImageOverlay",
+    "image" : {
+      "_modelName" : "glooInfiniteImage",
+      "src" : "img/banner3.jpg"
+    },
+    "overlay" : {
+      "_model" : "glooTextOverlay",
+
+      "title" : "Lym",
+      "__comment" : "left|right|center",
+      "align" : "center"
     }
+  },
+
+  "projects" : {
+    "_model" : "glooImageOverlay",
+    "image" : {
+      "_modelName" : "glooInfiniteImage",
+      "src" : "img/banner3.jpg"
+    },
+    "overlay" : {
+      "_model" : "glooTextOverlay",
+
+      "title" : "Projects",
+      "__comment" : "left|right|center",
+      "align" : "center"
+    }
+  }
+
+
+
 }

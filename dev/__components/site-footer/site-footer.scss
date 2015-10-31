@@ -1,8 +1,11 @@
 .site-footer{
   background-color: $site-palette-hotLava;
   color:white;
-  padding:20px 10px 20px 10px;
+  padding:0 10px 20px 10px;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   .site-footer-header{
     @extend .header2;

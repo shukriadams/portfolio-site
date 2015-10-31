@@ -1,18 +1,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/lym.css" type="text/css">
+        <title>{{#block "_title"}}{{/block}}</title>
     </head>
     <body>
-    {{>gloo-simpleHeader header}}
 
-    <div class="site-hero">
-        {{#block "_hero"}}{{/block}}
-    </div>
+        <div class="site-mainWrapper">
+            {{>gloo-simpleHeader header}}
+            <div class="site-hero">
+                {{#block "_hero"}}{{/block}}
+            </div>
+            {{#block "_body"}}{{/block}}
+        </div>
 
-    {{#block "_body"}}{{/block}}
+        {{>site-footer site-footer}}
 
-    {{>site-footer site-footer}}
-
-    <script data-main="js/app"  src="lib/require.js"></script>
+        <script data-main="js/app" src="lib/require.js"></script>
     </body>
 </html>

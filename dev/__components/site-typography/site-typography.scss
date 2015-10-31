@@ -25,6 +25,11 @@ dependencies : gloo-utils,
 .header2{
     font-weight:900;
     font-size: gloo-utils-toEm(20px);
+    margin-top: 48px;
+}
+
+h2 {
+  @extend .header2;
 }
 
 body, .bodytext{
