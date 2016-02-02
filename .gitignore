@@ -14,9 +14,7 @@
 /icomoon
 /node_modules
 /bower_components
-/dev/index.html
-/dev/projects.html
 /dev/lib
 /dev/js
 /dev/css
-/dev/lym.html
+/dev/*.html
